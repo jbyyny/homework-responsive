@@ -73,8 +73,8 @@ a {
 /*******************************************/
 
 /* Center the container */
-.container {
-  width: 960px;
+.wrapper {
+  max-width: 1280px;
   margin: auto;
 }
 
@@ -93,7 +93,7 @@ a {
 
 header {
   background: #033048;
-  padding: 25px 0;
+  padding: 25px 20px 20px 25px;
   overflow: hidden;
 }
 header .logo {
@@ -354,6 +354,30 @@ footer p {
   font-weight: 600;
 }
 
+
+
+@media screen and (max-width:1080px) and (min-width: 980px){
+  nav{
+
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:980px) and (min-width: 768px){
+  nav{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px){
+  body{
+    font-size: 16px;
+  }
+  nav{
+    width:100%;
+  }
+
+
+
+/*
 @media screen and (max-width: 960px){
   nav{
     display: none;
@@ -362,10 +386,10 @@ footer p {
 /*@media screen and (max-width: 960px){
   nav.show {
     display: block;
-  }*/
+
 
 @media screen and (max-width: 960px){
-  #container ul li a{
+  nav ul li a{
     display: none;
   }
 }
@@ -378,4 +402,5 @@ footer p {
     display: none;
   }
 }
+  }*/
 
