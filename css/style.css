@@ -65,7 +65,7 @@ a {
 }
 
 p {
-  margin: 0 0 1.5em 0;
+  margin: 0 0 1.5rem 3rem;
 }
 
 .container{
@@ -90,6 +90,7 @@ p {
 .logo {
   font-size: 3rem;
   font-weight: 800;
+  margin: auto;
 }
 
 header {
@@ -130,7 +131,7 @@ header nav ul li a {
 #hero {
   height: 700px;
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
-  overflow: hidden;
+  background: cover;
   padding-top: 3.33333%; /* 32/960 * 100 = 3.33333 */
   padding-left: 3.33333%;
   margin: auto;
@@ -138,7 +139,7 @@ header nav ul li a {
 
 #hero .logo {
   color: #fff;
-  padding-left: 1.5rem;
+  padding-left: 1%;
 }
 #hero h2 {
   font-size: 2.4em;
@@ -173,16 +174,18 @@ h3 {
   color: #033048;
   font-size: 2.4rem;
   font-weight: 600;
-  margin-bottom: 2.08333%; /* 20/960 * 100 = 2.08333 */
+  margin: 1.5625% 2.0833% 1.0146% 5.2083%;
+  /*margin-bottom: 2.08333%;  20/960 * 100 = 2.08333 */
 }
 #benefits p, #benefits ul {
   width: 62.5%;
   font-size: 1rem;
   line-height: 1.8rem;
+  margin: 1.5625% 2.0833% 1.0146% 5.2083%;
 }
 #benefits ul {
   list-style: disc;
-  margin: 1.5625% 2.0833% 1.0146% 3.2083%;
+  margin: 1.5625% 2.0833% 1.0146% 5.2083%;
 }
 #testimonial {
   background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
@@ -232,13 +235,13 @@ blockquote span {
   font-size: 2.2em;
   text-align: left;
   color: #fff;
-  margin: .5% 0 4.2916%;
+  margin: .5% 0  10%4.2916%;
   font-weight: 600;
 }
 
 .post h2 a {
   color: #043049;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding-left: 3rem;
 }
 .clearfix:after {
@@ -249,7 +252,7 @@ blockquote span {
 
 .post img {
   margin-bottom: 3.125%;
-  padding-left: 2rem;
+  padding-left: 5%;
 }
 .post p {
   font-size: 1.3rem;
@@ -299,7 +302,7 @@ blockquote span {
 #sidebar h3 {
   font-size: 1.5rem;
   font-weight: 800;
-  margin-bottom: 15px;
+  margin-bottom: 1.5625%;
   color: #043049;
 }
 #sidebar ul {
@@ -308,11 +311,12 @@ blockquote span {
 #sidebar ul li a {
   color: #043049;
   font-size: 1rem;
+  margin: 0 0 0 5%
 }
 #sidebar p {
   font-size: 1.1rem;
-  line-height: 1.4rem;
-  margin-bottom: 4%;
+  line-height: 1.5rem;
+  margin: 0 0 0 5%
 }
 #sidebar p a {
   color: #043049;
@@ -325,7 +329,7 @@ blockquote span {
   text-align: center;
 }
 
-#hamburger-helper {
+/*#hamburger-helper {
   padding-top: 15px;
   height: 70px;
   width: 40px;
@@ -355,7 +359,7 @@ blockquote span {
 
 #meat {
   background-color: white;
-}
+}*/
 
 footer {
   background: #121212;
@@ -382,7 +386,7 @@ footer p {
 
 @media screen and (max-width:1080px) and (min-width: 980px){
     body{
-    font-size: 18px;
+    font-size: 16px;
   }
     nav{
     width:100%;
@@ -399,7 +403,7 @@ footer p {
 
 @media screen and (max-width: 768px){
     body{
-    font-size: 15px;
+    font-size: 20px;
   }
     nav{
     width:100%;
